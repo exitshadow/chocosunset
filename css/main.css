@@ -72,11 +72,36 @@ canvas {
   z-index: 99;
 }
 
+h1 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: 'Papyrus', serif;
+  font-size: 3rem;
+  color: rgb(255, 164, 137);
+}
+
 img {
   position: absolute;
   bottom: 0;
   z-index: -99;
   height: 80%;
+}
+
+.left-comment, .right-comment {
+  position: absolute;
+  color: rgb(255, 164, 137);
+  font-family: 'Papyrus', serif;
+}
+
+.left-comment {
+  left: 2em;
+  bottom: 1em;
+}
+
+.right-comment {
+  right: 2em;
+  bottom: 1em;
 }
 
 /*

@@ -12,7 +12,7 @@ function physics() {
         pc.setPosition(currentPosition.x, currentPosition.y + currentSpeed.y, currentPosition.z);
     }
 
-    if (pc.charSprite.position.y > 5) {
+    if (pc.charSprite.position.y > 4.5) {
         currentSpeed.y = currentSpeed.y - pc.jumpFactor * 2;
     }
 
