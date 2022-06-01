@@ -78,7 +78,7 @@ h1 {
   text-align: center;
   font-family: 'Papyrus', serif;
   font-size: 3rem;
-  color: rgb(255, 164, 137);
+  color: rgba(255, 192, 110, 0.747);
 }
 
 img {
@@ -90,7 +90,7 @@ img {
 
 .left-comment, .right-comment {
   position: absolute;
-  color: rgb(255, 164, 137);
+  color: rgba(255, 192, 110, 0.747);
   font-family: 'Papyrus', serif;
 }
 
